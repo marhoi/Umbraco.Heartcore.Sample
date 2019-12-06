@@ -4,7 +4,7 @@ using Umbraco.Headless.Client.Net.Configuration;
 using Umbraco.Headless.Client.Net.Delivery;
 using Umbraco.Headless.Client.Net.Management;
 
-namespace Umbraco.Heartcore.Features.Shared
+namespace Umbraco.Heartcore.Client.Features.Shared
 {
 	public static class HeadlessClientServices
 	{

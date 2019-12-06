@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Umbraco.Heartcore.Core;
-using Umbraco.Heartcore.Features.Shared;
+using Umbraco.Heartcore.Client.Core;
+using Umbraco.Heartcore.Client.Features.Shared;
 
-namespace Umbraco.Heartcore
+namespace Umbraco.Heartcore.Client
 {
 	public class Startup
 	{
@@ -34,7 +34,7 @@ namespace Umbraco.Heartcore
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-		public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+		public static void Configure(IApplicationBuilder app, IWebHostEnvironment env)
 		{
 			if(env.IsDevelopment())
 			{

@@ -1,7 +1,8 @@
-# Umbraco.Heartcore
+# Umbraco.Heartcore.Client
 
 ## Prerequisites
 * .NET Core 3.0
+* Any compatible IDE such as VS Code
 
 ## Setup project on development environment
 

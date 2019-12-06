@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Umbraco.Heartcore.Core;
+using Umbraco.Heartcore.Client.Core;
 
-namespace Umbraco.Heartcore.Page
+namespace Umbraco.Heartcore.Client.Features.Page
 {
 	[Route("api/v1/page")]
 	[ApiController]

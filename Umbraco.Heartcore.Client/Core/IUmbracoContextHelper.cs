@@ -2,7 +2,7 @@
 using System.Net;
 using System.Threading.Tasks;
 
-namespace Umbraco.Heartcore.Core
+namespace Umbraco.Heartcore.Client.Core
 {
 	public interface IUmbracoContextHelper
 	{

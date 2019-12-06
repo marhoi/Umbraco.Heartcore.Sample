@@ -6,9 +6,9 @@ using System.Collections.Immutable;
 using System.Net;
 using System.Threading.Tasks;
 using Umbraco.Headless.Client.Net.Delivery;
-using Umbraco.Heartcore.Core;
+using Umbraco.Heartcore.Client.Core;
 
-namespace Umbraco.Heartcore.Features.Shared
+namespace Umbraco.Heartcore.Client.Features.Shared
 {
 	public class UmbracoContextHelper : IUmbracoContextHelper
 	{
